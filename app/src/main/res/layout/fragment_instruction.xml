@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context=".views.InstructionFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            tools:context=".WelcomeActivity">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kicks"/>
+
+            <TextView
+                style="@style/LabelStyle"
+                android:layout_margin="@dimen/margin5"
+                android:textAlignment="center"
+                android:textSize="@dimen/text20"
+                android:text="@string/instruction_1" />
+
+            <TextView
+                style="@style/LabelStyle"
+                android:layout_margin="@dimen/margin5"
+                android:textAlignment="center"
+                android:textSize="@dimen/text18"
+                android:text="@string/instruction_2"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_alignParentBottom="true"
+            style="@style/ButtonBlue"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_done"
+            android:textSize="@dimen/btnText"
+            android:drawableEnd="@drawable/ic_arrow_right"/>
+
+
+    </RelativeLayout>
+
+</layout>

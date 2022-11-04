@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding1">1dp</dimen>
+    <dimen name="padding3">3dp</dimen>
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <item name="spacing" type="dimen" format="float">1.2</item>
+    <dimen name="labelSize">18dp</dimen>
+    <dimen name="btnText">16sp</dimen>
+    <dimen name="text14">14sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text18">18sp</dimen>
+    <dimen name="text20">20sp</dimen>
+    <dimen name="text22">22sp</dimen>
+    <dimen name="text25">25sp</dimen>
+    <dimen name="text30">30sp</dimen>
+    <dimen name="welcome">20dp</dimen>
+    <dimen name="margin2">2dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin24">24dp</dimen>
+    <dimen name="margin32">32dp</dimen>
+    <dimen name="minHeight">40dp</dimen>
+</resources>

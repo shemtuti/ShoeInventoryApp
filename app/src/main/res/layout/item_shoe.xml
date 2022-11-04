@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin8">
+
+        <ImageView
+            android:id="@+id/shoeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding1"
+            android:contentDescription="@string/sample_shoe_image"
+            android:src="@drawable/kicks"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shoeTitle"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/padding1"
+            android:layout_marginLeft="@dimen/margin8"
+            android:text="Name"
+            android:textSize="@dimen/text20"
+            app:layout_constraintStart_toEndOf="@+id/shoeImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shoeSize"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/padding1"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="Size"
+            android:textSize="@dimen/text18"
+            app:layout_constraintStart_toEndOf="@+id/shoeImage"
+            app:layout_constraintTop_toBottomOf="@+id/shoeTitle" />
+
+        <TextView
+            android:id="@+id/shoeCompany"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/padding1"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="Company"
+            android:textSize="@dimen/text18"
+            app:layout_constraintStart_toEndOf="@+id/shoeImage"
+            app:layout_constraintTop_toBottomOf="@+id/shoeSize" />
+
+        <TextView
+            android:id="@+id/shoeDescription"
+            style="@style/LabelStyle"
+            android:layout_width="wrap_content"
+            android:padding="@dimen/padding1"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="Desc..."
+            android:textSize="@dimen/text16"
+            app:layout_constraintStart_toEndOf="@+id/shoeImage"
+            app:layout_constraintTop_toBottomOf="@+id/shoeCompany" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shoeDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

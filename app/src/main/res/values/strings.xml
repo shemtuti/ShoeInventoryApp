@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shoe Inventory App</string>
+    <string name="enter_email">Enter email:</string>
+    <string name="enter_password">Enter password:</string>
+    <string name="hint_username">johndoe@gmail.com</string>
+    <string name="hint_password">1234…</string>
+    <string name="button_new_login">New Login</string>
+    <string name="button_existing_login">Existing Login</string>
+    <string name="button_proceed">Proceed</string>
+    <string name="button_done">Done</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+    <string name="button_float">Add New Shoe</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_description">Let\'s organise and consolidate your inventory.</string>
+    <string name="instruction_2">Thank you for downloading this App. Create account, add new products and keep track of them at ease.</string>
+    <string name="instruction_1"><u>App Instructions:</u></string>
+    <string name="logout">Logout</string>
+    <string name="enter_shoe">Enter Shoe:</string>
+    <string name="enter_company">Enter Company Name:</string>
+    <string name="enter_size">Enter Shoe Size:</string>
+    <string name="enter_desc">Enter Description:</string>
+    <string name="new_shoe_entry">New Shoe entry:</string>
+    <string name="shoe_field">e.g Nike HyperDunk…</string>
+    <string name="shoe_company">e.g Adidas…</string>
+    <string name="shoe_desc">e.g Black and white with yellow stripes…</string>
+    <string name="shoe_size">e.g 43.5…</string>
+    <string name="sample_shoe_image">Sample Shoe Image</string>
+
+</resources>
