@@ -1,4 +1,4 @@
-# ShoeInventoryApp
+# Shoe-Inventory-App
 
 This project consist of five screens.
 
