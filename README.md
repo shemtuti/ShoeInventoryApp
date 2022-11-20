@@ -49,3 +49,10 @@ Hint: In the Shoe List destination, to add a child view programmatically to a Vi
 - Use an Activity level ViewModel to hold a list of Shoes (use by activityViewModels)
 - Observe the shoes variable from the ViewModel
 - Add a new layout item into the scrollview for each shoe.
+
+
+# Tech-Stack 
+
+* Languages: Kotlin
+* Architecture: MVVM design principles 
+* Software: Android Studio, Git
